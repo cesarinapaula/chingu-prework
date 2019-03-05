@@ -12,3 +12,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#header {
+  height: 150px;
+  width: 100vw;
+  background-color: black;
+  color: lightcyan;
+  font-size:50px;
+  text-align: center;
+  padding-top: 85px;
+  margin-top: -1px;
+}
+
+#googleapi {
+  text-align: center  
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+}
+.grid-container {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 5px;
+  justify-items: center;
+
+}
+.container {
+  width: 25vw;
+  min-width: 300px;
+  height: 300px;
+  border: gray 1px solid;
+  border-radius: 5%;
+  padding: 5px;
+  margin: 20px;
+  box-shadow: 5px 10px 10px gray;
+  
+}
+
+#image {
+  float: left;
+  padding: 15px 10px 10px 15px;
+}
+
+.float-right {
+  float: right;
+}
+
+#link {
+  border-radius: 5%;
+  font-size: 20px;
+  background-color: rgb(63, 148, 63);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none
+}
+
+#message {
+  text-align: center;
+}
