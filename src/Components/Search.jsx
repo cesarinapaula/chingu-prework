@@ -62,7 +62,7 @@ class Search extends Component {
 
              {results.map(book=>(
                 <div className="container">
-                <img id='image' src={book.volumeInfo.imageLinks.smallThumbnail} alt=' ' key={book.id} />
+                {book.volumeInfo.imageLinks === undefined ? <span id="undefined">undefined</span> : <img id='image' src={book.volumeInfo.imageLinks.smallThumbnail} alt=' ' key={book.id} />}
                 
                 <h3>{book.volumeInfo.title}</h3>
                 <p>By {book.volumeInfo.authors === undefined ? "N/A" : book.volumeInfo.authors.join(', ')}</p>
